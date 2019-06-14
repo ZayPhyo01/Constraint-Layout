@@ -5,11 +5,11 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
 	android:background="#fff"
-	android:layout_height="match_parent">
+	android:layout_height="wrap_content">
 
 
 	<TextView
-		android:text="Delious food for tonight"
+		android:text="For now material"
 		android:fontFamily="cursive"
 		android:textColor="#000"
 		android:textStyle="bold"
@@ -23,7 +23,7 @@
 		android:layout_marginTop="16dp"/>
 
 	<TextView
-        android:text="@string/dummy_text"
+		android:text="@string/dummy_text"
 		android:textColor="#4B4848"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"

@@ -25,15 +25,9 @@
 			app:layout_constraintHeight_percent="0.5"
 			app:srcCompat="@drawable/food"
 			android:id="@+id/imageView10"
-			android:layout_marginTop="8dp"
-			app:layout_constraintTop_toTopOf="parent"
-			android:layout_marginBottom="8dp"
-			app:layout_constraintBottom_toBottomOf="parent"
-			app:layout_constraintVertical_bias="0.14"
+			app:layout_constraintEnd_toEndOf="parent"
 			android:layout_marginStart="8dp"
-			app:layout_constraintStart_toStartOf="@+id/guideline6"
-			android:layout_marginEnd="8dp"
-			app:layout_constraintEnd_toEndOf="parent"/>
+			app:layout_constraintStart_toStartOf="@+id/guideline6"/>
 
 		<android.support.constraint.Guideline
 			android:orientation="vertical"
@@ -114,7 +108,7 @@
 			android:id="@+id/vP"
 			android:layout_marginTop="10dp"
 			android:layout_width="wrap_content"
-			android:layout_height="188dp"
+			android:layout_height="18dp"
 			android:layout_marginBottom="8dp"
 			app:layout_constraintBottom_toBottomOf="parent"
 			app:layout_constraintTop_toBottomOf="@+id/tBLay"

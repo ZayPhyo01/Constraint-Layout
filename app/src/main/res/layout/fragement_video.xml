@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent"
-	android:background="#fff"
-	android:layout_height="match_parent">
-
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:background="#fff"
+                                             android:layout_height="match_parent"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto">
 
 	<TextView
-		android:text="Delious food for tonight"
+		android:text="Video"
 		android:fontFamily="cursive"
 		android:textColor="#000"
 		android:textStyle="bold"
@@ -23,7 +20,7 @@
 		android:layout_marginTop="16dp"/>
 
 	<TextView
-        android:text="@string/dummy_text"
+		android:text="@string/dummy_text"
 		android:textColor="#4B4848"
 		android:layout_width="0dp"
 		android:layout_height="wrap_content"
